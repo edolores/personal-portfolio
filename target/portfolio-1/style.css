@@ -1,0 +1,175 @@
+/* #content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+} */
+
+/*Formatting for header div*/
+#header {
+  border-radius: 15px;
+  background: #2b425e;
+  /* padding: 20px;  */
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000; 
+}
+
+/*Formatting for header text*/
+h1 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;   
+    color: white;
+    font: verdana;
+    font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Formatting for greeting div*/
+#greeting {
+  border-radius: 15px;
+  background: #2b425e;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 60%;
+  height: 1000px; 
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+
+  color: white;
+  font: verdana;
+  font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Container for greeting from me*/
+#quote-container {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    padding-bottom: 20px; 
+    margin-top: 20px;
+    float: left;
+}
+
+#username {
+    font-weight: bold;
+    color: #e2a34b;
+}
+
+#greeting-button {
+    padding-top: 10px;
+}
+
+/*Formatting for main intro paragraph*/
+#intro {
+  border-radius: 15px;
+  background: #2b425e;
+  padding-top: 100px;
+  padding-bottom: 20px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 60%;
+  height: 500px; 
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+
+  color: white;
+  font: verdana;
+  font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+/*Formatting for image of myself*/
+#erick-image {
+    height: 300px;
+    border: 20px solid #e4e8c1;
+    transform: rotate(90deg);
+    float: left;
+}
+
+/*Container for random songs, couldn't figure out how to change id*/
+#greeting-container {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 1100px;
+    padding-bottom: 20px; 
+    margin-top: 20px;
+}
+
+.map {
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+  margin-left: auto;
+  margin-bottom: 30px;
+  margin-right: auto;
+  width: 70%;
+  height: 700px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+      
+#food-header {
+  border-radius: 15px;
+  background: #2b425e;
+  /* padding: 20px;  */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 80%;
+  height: 100px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000; 
+}
+
+/*Formatting for header text*/
+h4 {
+    font-size: xx-large;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;   
+    color: white;
+    font: verdana;
+    font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Class to describe buttons*/
+.button {
+  background-color: #e4e8c1;
+  border: none;
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*The background of the website*/
+body {
+    background: linear-gradient(1deg, #66859f, #e2a34b, #e4e8c1, #e2a34b, #66859f);
+    background-size: 1200% 1200%;
+    animation: gradient 10s ease infinite;
+}
+
+/*The animation behind the gradient effect*/
+@keyframes gradient {
+    0% {
+        background-position: 51% 0%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 51% 0%;
+    }
+}
