@@ -53,3 +53,81 @@ h2, p {
   width: 100%;
   height: auto;
 }
+
+/* COPIED */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
+.footer,
+.push {
+  height: 50px;
+}
+
+/* ICONS */
+
+ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.icon {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+/* .icon:hover {
+  background-color: #005f5f;
+}
+ 
+.icon.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+} */
+ 
+@media screen and (min-width: 600px) {
+  li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* li {
+    display: inline-block;
+    margin-right: -4px;
+  }  */
+
+li {
+    float: left;
+  }
+  
+ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+}
