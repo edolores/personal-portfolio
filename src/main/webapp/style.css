@@ -38,18 +38,17 @@ h2, p {
 }
 
 .image-container{
-    /* margin-top: 20px; */
-    /* padding-top: 20px; */
-    margin: 0 auto;
+  margin: 0 auto;
   position: relative;
   width: 350px;
   height: 350px;
   overflow: hidden;
   border-radius: 50%;
+  border: 2px solid #eff2ce;
 }
 
 .erick-image {
-    margin-top: -5%;
+  margin-top: -5%;
   width: 100%;
   height: auto;
 }
@@ -73,61 +72,30 @@ html, body {
   height: 50px;
 }
 
-/* ICONS */
 
-ul {
-  list-style: none;
-  background-color: #444;
+
+
+.botnav {
   text-align: center;
-  padding: 0;
-  margin: 0;
+  overflow: hidden;
 }
-li {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
-  border-bottom: 1px solid #888;
-}
- 
-.icon {
-  text-decoration: none;
-  color: #fff;
-  display: block;
-  transition: .3s background-color;
-}
- 
-/* .icon:hover {
-  background-color: #005f5f;
-}
- 
-.icon.active {
-  background-color: #fff;
-  color: #444;
-  cursor: default;
-} */
- 
-@media screen and (min-width: 600px) {
-  li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  }
- 
-  /* li {
-    display: inline-block;
-    margin-right: -4px;
-  }  */
 
-li {
-    float: left;
-  }
-  
-ul {
-    overflow: auto;
-    width: 600px;
-    margin: 0 auto;
-  }
+.botnav a {
+  color:#eff2ce;
+  padding: 14px 5px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* .botnav a:hover {
+  background-color: #2e3954;
+  color: #d7f4fc;
+} */
+
+
+
+
+.media-icon {
+    height: 30px;
+    width: 30px;
 }
