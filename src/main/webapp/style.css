@@ -1,16 +1,30 @@
 body {
   height: 100%;
   margin: 0;
+  overflow: auto;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #2e3954;
 }
 
-h1 {
-    background-color: #eff2ce;
+h1{
+    color: #eff2ce;
+    font-size: 300%;
+    /* line-height: 200%; */
+}
+
+p {
+    /* line-height: 200%; */
+    color: #d7f4fc;
+    font-size: x-large;
+}
+
+.intro-container {
+
 }
 
 html {
   height: 100%;
+  overflow: auto;
   margin: 0;
 }
 
@@ -27,6 +41,7 @@ html {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-weight: bold;
   display:block;
   background-position: center;
   transition: background 1s;
@@ -51,9 +66,22 @@ html {
   float: right;
 }
 
+.home-intro {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 60%;
+  height: 70%;
+}
+
 .image-container{
-  margin: 0 auto;
-  position: relative;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
   width: 350px;
   height: 350px;
   overflow: hidden;
@@ -61,16 +89,48 @@ html {
   border: 2px solid #eff2ce;
 }
 
-.erick-image {
+.image-format-container{
+  /* margin: 0 auto; */
+  float: right;
+  position: relative;
+  width: 40%;
+  height: 70%;
+  /* overflow: hidden; */
+}
+
+.profile-image {
   margin-top: -5%;
   width: 100%;
   height: auto;
 }
 
+@media screen and (max-width: 600px) {
+   .home-intro, .image-format-container, .footer { 
+    float: none;
+    margin-right:0;
+    width:auto;
+  }
+  .home-intro {
+      height: 20vh;
+  }
+  .footer {
+    bottom: 0px;
+    position:relative;
+  }
+  .wrapper {
+      overflow: auto;
+  }
+}
+
 .wrapper {
-  min-height: calc(100% - 40px);
+  height: calc(100% - 40px);
   margin-bottom: -50px;
-  /* padding: 16px; */
+}
+
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .footer, .push {
