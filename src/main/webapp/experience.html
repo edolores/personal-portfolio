@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Erick Dolores' Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
   </head>
 <body>
-<div class="wrapper">
 
-<div class="topnav">
+<div id="navbar">
   <a href="index.html">Home</a>
-  <div class="topnav-right">
+  <div id="navbar-right">
     <a href="about.html">About</a>
     <a class="active" href="experience.html">Experience</a>
-    <a href="/images/Erick_Dolores_Colored_Resume.pdf" target="_blank" onClick="window.location.reload();">Resume</a>
-    <a href="contact.html">Contact</a>
+    <!-- window.location.reload(); -->
+    <a href="/images/Erick_Dolores_Colored_Resume.pdf" target="_blank" >Resume</a>
+    <a href="mailto:edolore1@swarthmore.edu">Contact</a>
   </div>
 </div>
 
-<div class="push"></div>
+<div class="wrapper">
+<br><br>
+
+ <div class="push"></div>
 </div>
 
 
@@ -42,5 +44,22 @@
         </a>
       </div>
     </footer>
+
+
+
+        <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById('navbar');
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add('sticky');
+            } else {
+                navbar.classList.remove('sticky');
+            }
+        }
+    </script>
   </body>
 </html>
