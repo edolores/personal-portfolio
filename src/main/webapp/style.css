@@ -224,14 +224,15 @@ html {
 	}
 	.home-intro {
 		height: 20vh;
-		margin-top: 70px;
+		margin-top: 150px;
 	}
 	.intro-container {
 		text-align: center;
 	}
 	.footer {
 		bottom: 0px;
-		position: relative;
+		/* position: relative; */
+        margin-top: 50px;
 	}
 	.about-footer {
 		margin-top: 50px;
