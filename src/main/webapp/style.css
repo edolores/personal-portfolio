@@ -131,7 +131,7 @@ html {
 
 .home-intro {
     margin-top: 100px;
-    overflow: visible;
+    /* overflow: visible; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -159,6 +159,7 @@ html {
 	position: relative;
 	width: 40%;
 	height: 70%;
+    margin-top: 100px;
 }
 
 .profile-image {
@@ -187,8 +188,21 @@ html {
     } */
       .topnav a:not(:first-child) {display: none;}
       .topnav a.icon {
-        float: right;
-        display: block;
+          font-family: Optima, sans-serif;
+	float: right;
+	color: #2e3954;
+	/* text-align: center; */
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 500;
+	display: block;
+	background-position: center;
+	transition: background 1s;
+      }
+      .topnav a.icon:hover {
+          background: #2e3954 radial-gradient(circle, transparent 1%, #2e3954 1%) center/15000%;
+	color: #d7f4fc;
       }
   .topnav.responsive {
       position: fixed;
@@ -204,8 +218,8 @@ html {
     text-align: left;
   }
 	.home-intro,
-	.image-format-container,
-	.footer,
+	/* .image-format-container, */
+	/* .footer, */
 	.about-footer,
 	.push {
 		float: none;
@@ -216,6 +230,7 @@ html {
     .experience-formatter,
     .last-experience-formatter,
     .first-experience-formatter,
+    .image-format-container,
 	.about-image-formatter {
 		display: block;
 		float: none;
@@ -224,15 +239,22 @@ html {
 	}
 	.home-intro {
 		height: 20vh;
-		margin-top: 150px;
+		margin-top: 125px;
 	}
+    .image-format-container {
+        margin-top: 0px;
+    }
 	.intro-container {
 		text-align: center;
 	}
 	.footer {
+        /* float: none;
+		margin-right: 0; */
+
 		bottom: 0px;
-		/* position: relative; */
-        margin-top: 50px;
+		/* position:absolute;
+        width:100%; */
+        /* margin-top: 50px; */
 	}
 	.about-footer {
 		margin-top: 50px;
@@ -249,17 +271,7 @@ html {
 .topnav .icon {
     /* float: left; */
   display: none;
-  font-family: Optima, sans-serif;
-	/* float: right; */
-	color: #2e3954;
-	/* text-align: center; */
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 22px;
-	font-weight: 500;
-	display: block;
-	background-position: center;
-	transition: background 1s;
+  
 }
 
 .wrapper {
