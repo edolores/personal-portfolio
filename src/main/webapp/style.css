@@ -131,18 +131,23 @@ html {
 	float: right;
 }
 
+
 .home-intro {
     	/* overflow: visible; */
         float: left;
   width: 60%;
 
-	margin-top: 100px;
+	margin-top: 15%;
+    /* height: inherit; */
+
 	/* display: flex;
 	justify-content: center;
 	align-items: center; */
 	/* float: left; */
 	/* width: 60%; */
-	/* height: 70%; */
+	position: relative;
+
+  /* height: 100%; */
 }
 
 .image-container {
@@ -160,8 +165,9 @@ html {
 	/* float: right; */
 	position: relative;
 	/* width: 40%; */
-	/* height: 30%; */
-	margin-top: 50px;
+	margin-top: 10%;
+    /* height: inherit; */
+
     /* display: flex;
 	justify-content: center;
 	align-items: center; */
@@ -278,7 +284,7 @@ html {
 		bottom: 0px;
 		/* position:absolute;
         width:100%; */
-		/* margin-top: 50px; */
+		margin-top: 50px;
 	}
 	.about-footer {
 		margin-top: 50px;
@@ -299,6 +305,7 @@ html {
 }
 
 .wrapper {
+    /* display: flex; */
     height: auto;
 	min-height: calc(100% - 50px);
     overflow: auto;
