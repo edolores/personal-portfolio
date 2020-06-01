@@ -132,23 +132,23 @@ html {
 }
 
 .home-intro {
+    	/* overflow: visible; */
+        float: left;
+  width: 60%;
+
 	margin-top: 100px;
-	/* overflow: visible; */
-	display: flex;
+	/* display: flex;
 	justify-content: center;
-	align-items: center;
-	float: left;
-	width: 60%;
-	height: 70%;
+	align-items: center; */
+	/* float: left; */
+	/* width: 60%; */
+	/* height: 70%; */
 }
 
 .image-container {
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
+	/* position: absolute; */
+    margin: auto;
+
 	width: 350px;
 	height: 350px;
 	overflow: hidden;
@@ -157,11 +157,18 @@ html {
 }
 
 .image-format-container {
-	float: right;
+	/* float: right; */
 	position: relative;
-	width: 40%;
-	height: 70%;
-	margin-top: 100px;
+	/* width: 40%; */
+	/* height: 30%; */
+	margin-top: 50px;
+    /* display: flex;
+	justify-content: center;
+	align-items: center; */
+    /* text-align: center; */
+    /* top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); */
 }
 
 .profile-image {
@@ -221,7 +228,7 @@ html {
 		display: block;
 		text-align: left;
 	}
-	.home-intro,
+	/* .home-intro, */
 	/* .image-format-container, */
 	/* .footer, */
 	.about-footer,
@@ -234,7 +241,7 @@ html {
 	.experience-formatter,
 	.last-experience-formatter,
 	.first-experience-formatter,
-	.image-format-container,
+	/* .image-format-container, */
 	.about-image-formatter {
 		display: block;
 		float: none;
@@ -242,18 +249,32 @@ html {
 		width: 100%;
 	}
 	.home-intro {
-		height: 20vh;
+		height: 300px;
+        width: 100%;
 		margin-top: 125px;
 	}
 	.image-format-container {
-		margin-top: 0px;
+		/* margin-top: 0px; */
+        display: block;
+		float: none;
+		margin: 0;
+		width: 100%;
 	}
+    .image-container {
+        margin: auto;
+    }
 	.intro-container {
 		text-align: center;
 	}
 	.footer {
 		/* float: none;
 		margin-right: 0; */
+        float: none;
+		margin-right: 0;
+		width: auto;
+
+        margin-top: 50px;
+
 		bottom: 0px;
 		/* position:absolute;
         width:100%; */
@@ -278,7 +299,10 @@ html {
 }
 
 .wrapper {
-	height: calc(100% - 50px);
+    height: auto;
+	min-height: calc(100% - 50px);
+    overflow: auto;
+	/* height: calc(100% - 50px); */
 	/* margin-bottom: -50px; */
 }
 
