@@ -21,6 +21,7 @@ h1,
 .first-experience-formatter,
 .about-formatter {
 	margin-top: 70px;
+    margin-bottom: 80px;
 }
 
 .experience-formatter {
@@ -28,7 +29,7 @@ h1,
 }
 
 .last-experience-formatter {
-	margin-bottom: 20px;
+	margin-bottom: 70px;
 }
 
 h1 {
@@ -290,6 +291,12 @@ html {
 		margin-top: 50px;
 		bottom: 0px;
 	}
+    #about-header {
+	    font-size: xx-large;
+    }
+    #about-paragraph {
+	    font-size: large;
+    }
 	.wrapper {
 		overflow: auto;
 	}
@@ -297,6 +304,31 @@ html {
 	.experience-wrapper {
 		overflow: auto;
 	}
+    #experience-header {
+	    font-size: xx-large;
+    }   
+    #experience-paragraph {
+        font-size: 100%;
+    }
+    #experience-company {
+	    font-size: x-large;
+    }
+    #experience-dates {
+	    font-size: large;
+    }
+    .first-experience-formatter,
+    .about-formatter {
+	    margin-top: 70px;
+        margin-bottom: 40px;
+    }
+
+    .experience-formatter {
+	    margin-bottom: 40px;
+    }
+
+    .last-experience-formatter {
+	    margin-bottom: 5px;
+    }
 }
 
 .topnav .icon {
