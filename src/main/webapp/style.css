@@ -15,13 +15,12 @@ h1,
 #experience-header {
 	color: #eff2ce;
 	font-size: 400%;
-	/* margin-bottom: 100px; */
 }
 
 .first-experience-formatter,
 .about-formatter {
 	margin-top: 70px;
-    margin-bottom: 80px;
+	margin-bottom: 80px;
 }
 
 .experience-formatter {
@@ -79,7 +78,6 @@ p2,
 	text-align: center;
 	width: 70%;
 	margin: 0 auto;
-	/* line-height: 10px; */
 }
 
 html {
@@ -94,7 +92,6 @@ html {
 	width: 100%;
 	overflow: hidden;
 	background-color: #d7f4fc;
-	/* text-align:center; */
 }
 
 .topnav a {
@@ -132,29 +129,15 @@ html {
 	float: right;
 }
 
-
 .home-intro {
-    	/* overflow: visible; */
-        float: left;
-  width: 60%;
-
+	float: left;
+	width: 60%;
 	margin-top: 15%;
-    /* height: inherit; */
-
-	/* display: flex;
-	justify-content: center;
-	align-items: center; */
-	/* float: left; */
-	/* width: 60%; */
 	position: relative;
-
-  /* height: 100%; */
 }
 
 .image-container {
-	/* position: absolute; */
-    margin: auto;
-
+	margin: auto;
 	width: 350px;
 	height: 350px;
 	overflow: hidden;
@@ -163,19 +146,8 @@ html {
 }
 
 .image-format-container {
-	/* float: right; */
 	position: relative;
-	/* width: 40%; */
 	margin-top: 10%;
-    /* height: inherit; */
-
-    /* display: flex;
-	justify-content: center;
-	align-items: center; */
-    /* text-align: center; */
-    /* top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%); */
 }
 
 .profile-image {
@@ -198,10 +170,6 @@ html {
 }
 
 @media screen and (max-width: 800px) {
-	/* .topnav a{
-        display: flex;
-        flex-direction: column-reverse;
-    } */
 	.topnav a:not(:first-child) {
 		display: none;
 	}
@@ -209,7 +177,6 @@ html {
 		font-family: Optima, sans-serif;
 		float: right;
 		color: #2e3954;
-		/* text-align: center; */
 		padding: 14px 16px;
 		text-decoration: none;
 		font-size: 22px;
@@ -235,9 +202,6 @@ html {
 		display: block;
 		text-align: left;
 	}
-	/* .home-intro, */
-	/* .image-format-container, */
-	/* .footer, */
 	.about-footer,
 	.push {
 		float: none;
@@ -248,7 +212,6 @@ html {
 	.experience-formatter,
 	.last-experience-formatter,
 	.first-experience-formatter,
-	/* .image-format-container, */
 	.about-image-formatter {
 		display: block;
 		float: none;
@@ -257,46 +220,39 @@ html {
 	}
 	.home-intro {
 		height: 300px;
-        width: 100%;
+		width: 100%;
 		margin-top: 125px;
 	}
 	.image-format-container {
-		/* margin-top: 0px; */
-        display: block;
+		display: block;
 		float: none;
 		margin: 0;
 		width: 100%;
 	}
-    .image-container {
-        margin: auto;
-    }
+	.image-container {
+		margin: auto;
+	}
 	.intro-container {
 		text-align: center;
 	}
 	.footer {
-		/* float: none;
-		margin-right: 0; */
-        float: none;
+		float: none;
 		margin-right: 0;
 		width: auto;
-
-        margin-top: 50px;
-
+		margin-top: 50px;
 		bottom: 0px;
-		/* position:absolute;
-        width:100%; */
 		margin-top: 50px;
 	}
 	.about-footer {
 		margin-top: 50px;
 		bottom: 0px;
 	}
-    #about-header {
-	    font-size: xx-large;
-    }
-    #about-paragraph {
-	    font-size: large;
-    }
+	#about-header {
+		font-size: xx-large;
+	}
+	#about-paragraph {
+		font-size: large;
+	}
 	.wrapper {
 		overflow: auto;
 	}
@@ -304,52 +260,45 @@ html {
 	.experience-wrapper {
 		overflow: auto;
 	}
-    #experience-header {
-	    font-size: xx-large;
-    }   
-    #experience-paragraph {
-        font-size: 100%;
-    }
-    #experience-company {
-	    font-size: x-large;
-    }
-    #experience-dates {
-	    font-size: large;
-    }
-    .first-experience-formatter,
-    .about-formatter {
-	    margin-top: 70px;
-        margin-bottom: 40px;
-    }
-
-    .experience-formatter {
-	    margin-bottom: 40px;
-    }
-
-    .last-experience-formatter {
-	    margin-bottom: 5px;
-    }
+	#experience-header {
+		font-size: xx-large;
+	}
+	#experience-paragraph {
+		font-size: 100%;
+	}
+	#experience-company {
+		font-size: x-large;
+	}
+	#experience-dates {
+		font-size: large;
+	}
+	.first-experience-formatter,
+	.about-formatter {
+		margin-top: 70px;
+		margin-bottom: 40px;
+	}
+	.experience-formatter {
+		margin-bottom: 40px;
+	}
+	.last-experience-formatter {
+		margin-bottom: 5px;
+	}
 }
 
 .topnav .icon {
-	/* float: left; */
 	display: none;
 }
 
 .wrapper {
-    /* display: flex; */
-    height: auto;
+	height: auto;
 	min-height: calc(100% - 50px);
-    overflow: auto;
-	/* height: calc(100% - 50px); */
-	/* margin-bottom: -50px; */
+	overflow: auto;
 }
 
 .about-wrapper,
 .experience-wrapper {
 	height: auto;
 	min-height: calc(100% - 50px);
-	/* margin-bottom: -50px; */
 	overflow: auto;
 }
 
@@ -368,7 +317,6 @@ html {
 
 .footer,
 .about-footer {
-	/* .push { */
 	height: 50px;
 	bottom: 0px;
 }
