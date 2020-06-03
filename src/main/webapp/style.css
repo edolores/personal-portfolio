@@ -55,17 +55,13 @@ body {
 	display: none;
 }
 
-.wrapper,
-.about-wrapper,
-.experience-wrapper {
+.wrapper {
 	height: auto;
 	min-height: calc(100% - 50px);
 	overflow: auto;
 }
 
-.wrapper:after,
-.about-wrapper:after,
-.experience-wrapper:after {
+.wrapper:after {
 	content: "";
 	display: table;
 	clear: both;
@@ -81,14 +77,14 @@ body {
 	padding-top: 50px;
 }
 
-.home-intro {
+.home-intro-formatter {
 	float: left;
 	width: 60%;
 	margin-top: 15%;
 	position: relative;
 }
 
-.intro-container {
+.home-intro-container {
 	line-height: 12px;
 	text-align: center;
 	overflow: visible;
@@ -114,12 +110,12 @@ h1,
 	font-size: 400%;
 }
 
-.image-format-container {
+.home-image-formatter {
 	position: relative;
 	margin-top: 10%;
 }
 
-.image-container {
+.home-image-container {
 	margin: auto;
 	width: 350px;
 	height: 350px;
@@ -128,19 +124,18 @@ h1,
 	border: 2px solid #eff2ce;
 }
 
-.profile-image {
+.home-profile-image {
 	margin-top: -5%;
 	width: 100%;
 	height: auto;
 }
 
-.first-experience-formatter,
-.about-formatter {
+.about-paragraph-formatter {
 	margin-top: 70px;
 	margin-bottom: 80px;
 }
 
-.about-container {
+.about-paragraph-container {
 	text-align: center;
 	width: 70%;
 	margin: 0 auto;
@@ -159,9 +154,15 @@ h1,
 	border: 2px solid #eff2ce;
 }
 
-.experience-formatter {
-	margin-bottom: 80px;
-} 
+.first-experience-formatter{
+    margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.experience-formatter,
+.last-experience-formatter {
+	margin-bottom: 70px;
+}
 
 .experience-container {
 	text-align: center;
@@ -191,16 +192,11 @@ h1,
 	font-size: x-large;
 }
 
-.last-experience-formatter {
-	margin-bottom: 70px;
-}
-
 .push {
 	height: 50px;
 }
 
-.footer,
-.about-footer {
+.footer {
 	height: 50px;
 	bottom: 0px;
 }
@@ -260,28 +256,24 @@ h1,
     .wrapper {
 		overflow: auto;
 	}
-	.about-wrapper,
-	.experience-wrapper {
-		overflow: auto;
-	}
-    .home-intro {
+    .home-intro-formatter {
 		height: 300px;
 		width: 100%;
 		margin-top: 125px;
 	}
-    .intro-container {
+    .home-intro-container {
 		text-align: center;
 	}
-    .image-format-container {
+    .home-image-formatter {
 		display: block;
 		float: none;
 		margin: 0;
 		width: 100%;
 	}
-    .image-container {
+    .home-image-container {
 		margin: auto;
 	}
-	.about-formatter,
+	.about-paragraph-formatter,
     .about-image-formatter,
 	.experience-formatter,
 	.last-experience-formatter,
@@ -310,7 +302,7 @@ h1,
 		font-size: 100%;
 	}
 	.first-experience-formatter,
-	.about-formatter {
+	.about-paragraph-formatter {
 		margin-top: 70px;
 		margin-bottom: 40px;
 	}
@@ -320,15 +312,10 @@ h1,
 	.last-experience-formatter {
 		margin-bottom: 5px;
 	}
-    .about-footer,
 	.push {
 		float: none;
 		margin-right: 0;
 		width: auto;
-	}
-	.about-footer {
-		margin-top: 50px;
-		bottom: 0px;
 	}
     .footer {
 		float: none;
@@ -336,6 +323,5 @@ h1,
 		width: auto;
 		margin-top: 50px;
 		bottom: 0px;
-		margin-top: 50px;
 	}
 }
